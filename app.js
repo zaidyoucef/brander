@@ -11,6 +11,7 @@ function generateName(word) {
     ".io",
     "ly",
     "fy",
+    "er",
     " Planet",
     " Party",
     " Globe",
