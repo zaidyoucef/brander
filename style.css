@@ -33,6 +33,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul a:hover {
+  color: #d68b1a;
+}
 
 button {
   border: 0;
@@ -91,7 +94,11 @@ input[type="text"]::placeholder {
   user-select: none;
   font-weight: 700 !important;
   color: white !important;
-  font-size: 1rem;
+  font-size: 1.4rem;
+}
+#isGenerate:hover {
+  background: #f0a535;
+  color: white;
 }
 
 .btn-normal {
@@ -116,7 +123,6 @@ input[type="text"]::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   flex-direction: row;
 }
 
@@ -125,15 +131,14 @@ input[type="text"]::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   flex-direction: column;
   gap: 20px;
 }
 
 #hero .container {
   justify-content: space-between;
-  height: 100%;
+  height: 90%;
 }
 
 #hero img {

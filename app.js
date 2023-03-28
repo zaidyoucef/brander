@@ -79,8 +79,6 @@ btnGenerate.addEventListener("click", function (e) {
 
     showGenerate.style.display = "block";
     btnReturn.style.display = "inline-flex";
-    btnTweet.style.display = "inline-flex";
-    heroImag.style.height = "125px";
 
     showGenerate.innerText = word;
 
