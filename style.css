@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&family=Inter:wght@700&display=swap");
+@font-face {
+  font-family: Chonburi;
+  src: url(/assets/fonts/Chonburi-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 66px auto;
+  background: rgb(14, 58, 46);
+  color: rgb(245, 241, 240);
+  font-size: 18px;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0;
+}
+
+.logo {
+  font-family: "Yeseva One", cursive;
+  font-size: 1.5rem;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+}
+
+ul li a {
+  display: block;
+  padding-left: 20px;
+  color: rgb(245, 241, 240);
+  font-size: 18px;
+}
+
+ul li:nth-child(1) a {
+  padding-left: 0px;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 12px;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  color: #f5f1f0;
+}
+
+input[type="text"]::placeholder {
+  color: #f5f1f08d;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px !important;
+  background: #d68b1a;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 700 !important;
+  color: white !important;
+  font-size: 1rem;
+}
+
+.btn-normal {
+  background-color: white;
+  color: #222 !important;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer p {
+  text-align: center;
+  font-weight: Regular;
+}
+
+//--------------------------------------
+// code a modifier
+//--------------------------------------
+
+#hero form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+
+#hero .container,
+#hero form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#hero .container {
+  justify-content: space-between;
+  height: 100%;
+}
+
+#hero img {
+  max-height: 200px;
+}
+
+#heroWord {
+  width: 350px;
+}
+
+#hero #isReturn,
+#hero #isTweet,
+#hero #showGenerate {
+  display: none;
+}
+
+#hero #showGenerate {
+  font-size: 48px;
+}
+
+#hero h1 {
+  font-size: 13px;
+}
+
+#hero h1 {
+  font-size: 13px;
+}
