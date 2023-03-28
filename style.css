@@ -108,11 +108,6 @@ input[type="text"]::placeholder {
   display: none;
 }
 
-footer p {
-  text-align: center;
-  font-weight: Regular;
-}
-
 //--------------------------------------
 // code a modifier
 //--------------------------------------
